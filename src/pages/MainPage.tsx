@@ -3,12 +3,12 @@ import Medicines from 'components/medicines/medicines';
 export default function MainPage() {
   return (
     <>
-      {/* Новости */}
+      <News />
       {/* Карусель */}
-      {/* Статьи */}
+      <Articles />
       {/* Подкасты */}
       {/* Подписка */}
-      <Medicines />
+      {/* Лекарства и БАД */}
       {/* Спроси врача */}
     </>
   );
