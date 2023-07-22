@@ -4,6 +4,8 @@ type TIconColor = 'black' | 'gray' | 'blue' | 'white';
 
 export const getColor = (color: TIconColor) => {
   switch (color) {
+    case 'white':
+      return '#fff';
     case 'black':
       return '#000000';
     case 'gray':
